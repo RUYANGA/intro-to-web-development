@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    right: 0;
+}
+.navbar-logo{
+    font-size: 30px;
+}
+.navbar {
+    position: fixed;
+    padding: 26px ;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    height: 9px;
+    background-color: beige;
+  }
+  
+  li {
+    display:inline-block;
+    list-style-type: none;
+    margin: 0 12px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+li:hover{
+    color: blue;
+    cursor: pointer;
+  }
+.Name{
+    color: rgb(243, 247, 248);
+}
+.hero {
+  background-image: url('/images/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 219px;
+  height: 500px;
+  padding-left: 103px;
+  
+}
+.Domain{
+    color: blue
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 35px;
+  padding: 12px 30px;
+  background: #52647E;
+  color: white;
+  border-radius: 10px;
+}
+
+.journey{
+  background: #618379;
+}
+.h2{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 30px;
+}
+.journey-list{
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.journey-card{
+  border-radius: 10px;
+  justify-items: start;
+  background-color: white;
+  padding: 30px;
+}
+
+.journey-image{
+  border-radius: 10px;
+  width: 400px;
+}
+footer {
+  background: #333232;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
