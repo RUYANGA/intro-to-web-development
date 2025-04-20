@@ -34,7 +34,7 @@ li:hover{
     color: rgb(243, 247, 248);
 }
 .hero {
-  background-image: url('/images/hero.png');
+  background-image: url('./images/hero.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 219px;
