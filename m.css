@@ -96,7 +96,7 @@ footer {
 #abt{
   text-align: center;
 }
-#about{
+/* #about{
  display:block;
  padding: 20px;
  margin-left: 600px;
@@ -120,4 +120,4 @@ footer {
   font-size: 1.4rem;
   margin-bottom: 10px;
   box-shadow: 3px 20px 30px rgba(0, 0, 0, 0.5);
-}
+} */
