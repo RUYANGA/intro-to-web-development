@@ -9,3 +9,7 @@ document.getElementById('intro').addEventListener('click', () => changeBackgroun
 document.getElementById('react').addEventListener('click', () => changeBackgroundColor("#FF7F0E"));
 
 document.getElementById('backend').addEventListener('click', () => changeBackgroundColor("#9467BD"));
+
+const year=new Date().getFullYear()
+
+document.getElementById('year').textContent=year

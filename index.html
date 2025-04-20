@@ -16,9 +16,10 @@
       <img src="./images/logo.png" width="300" />
     </div>
     <ul class="navbar-items">
-      <li>About Me</li>
-      <li>Journey</li>
-      <li>Goals</li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#coding-journey">Journey</a></li>
+      <li><a href="#goal">Goals</a></li>
     </ul>
   </nav>
   <!-- Hero section -->
@@ -33,6 +34,29 @@
       <button>Contact Me</button>
     </a>
   </div>
+
+  <section id="about">
+    <h2 id="abt">About Me</h2>
+    <p>
+      My name is Merci RUYANGA. I'm a Full-Stack JavaScript Developer and a Computer Science student at the University of Rwanda.
+    </p>
+    <p>
+      I build websites and web apps using technologies like:
+    </p>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React.js</li>
+      <li>Node.js, Express.js</li>
+      <li>NestJS, TypeScript</li>
+      <li>PostgreSQL, Prisma ORM</li>
+      <li>JWT, Cloudinary, Git</li>
+    </ul>
+    <p>
+      I love learning, building projects, and solving real-world problems with code.
+      Check out my work on <a href="https://github.com/RUYANGA" target="_blank">GitHub</a>.
+    </p>
+  </section>
+  
 
   <div id="coding-journey"  class="journey" onclick="changeBackgroundColor()">
     <h2 class="h2">Coding Journey</h2>
@@ -51,6 +75,8 @@
           </p>
         </div>
       </div>
+
+     
   
       <div id="react" class="journey-card">
         <img src="./images/react.png" class="journey-image" alt="Course Image" />
@@ -74,9 +100,26 @@
     </div>
   </div>
 
+  <div>
+    <div id="goal">
+      <h1>My Goals</h1>
+     <p> My ultimate goal is to become a skilled and creative Full-Stack Developer who can build real-world, impactful web applications using modern technologies. I am passionate about both the frontend and backend — from designing beautiful, user-friendly interfaces to building powerful and secure backend systems.</p>
+
+      <p>
+        As a student of Computer Science at the University of Rwanda, I’m constantly learning and pushing myself to grow in areas like JavaScript, TypeScript, React, Node.js, NestJS, and PostgreSQL. I'm also exploring tools like Prisma, JWT authentication, and real-time features like GPS tracking using the Google Maps API.
+      </p>
+      <p>
+
+In addition to tech, I have a strong passion for aviation and I am actively preparing to join the RwandAir Cadet Pilot Program. My dream is to eventually combine my skills in software development and aviation to create innovative solutions that support the airline and aerospace industries.
+      </p>
+
+I believe in continuous learning, teamwork, and building solutions that make life better. Whether it's through code or the cockpit, I want to make a meaningful contribution to the world.
+    </div>
+  </div>
+
   <!-- Footer section -->
   <footer>
-    <p>&copy; Website Made By Merci RUYANGA From Kigali</p>
+    <p>&copy; <span id="year"></span> Website Made By Merci RUYANGA From Kigali</p>
   </footer>
   <script src="./script.js"></script>
 </body>

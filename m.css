@@ -23,12 +23,13 @@ body{
     display:inline-block;
     list-style-type: none;
     margin: 0 12px;
-    padding-right: 30px;
+    padding-right: 50px;
     font-weight: bold;
   }
 li:hover{
     color: blue;
     cursor: pointer;
+    text-decoration: underline;
   }
 .Name{
     color: rgb(243, 247, 248);
@@ -91,4 +92,32 @@ footer {
   text-align: center;
   color: white;
   padding: 30px;
+}
+#abt{
+  text-align: center;
+}
+#about{
+ display:block;
+ padding: 20px;
+ margin-left: 600px;
+ margin-top: 20px;
+ text-align: center;
+ border-radius: 10px;
+ width: 600px;
+ box-shadow: 3px 20px 30px rgba(0, 0, 0, 0.5);
+}
+.tech{
+  display: block;
+}
+#goal{
+  display:block;
+  padding: 20px;
+  margin-left: 600px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 600px;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  box-shadow: 3px 20px 30px rgba(0, 0, 0, 0.5);
 }
